@@ -1,0 +1,57 @@
+
+.jxPPKR {
+}
+
+.this {
+  color: white;
+
+
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15%;
+
+}
+
+.copy {
+  z-index: 1;
+  min-width: 50%;
+
+  /* align-self: center;
+  flex: 1 1 auto;
+  margin-left: 200px; */
+}
+
+.copy-start {
+  display: inline-flex;
+}
+
+h1 {
+  font-size: 2em;
+}
+.flex-container h1 button {
+  align-self: flex-start;
+  width: 50%;
+  height: auto;
+}
+
+.flex-container img {
+  align-self: flex-end;
+  width: 50%;
+  height: auto;
+  min-width: 300px;
+  margin-left: -100px;
+  /* flex: 3;
+  width: 50%;
+  height: auto;
+  align-self: center; */
+}
+.flex-container button {
+  color: rgb(255, 79, 57) !important;
+  text-transform: uppercase;
+  background-color: white!important;
+  border: 0px!important;
+  margin-top: 10px;
+}
