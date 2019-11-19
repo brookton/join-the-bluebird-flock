@@ -1,11 +1,21 @@
 import React from 'react';
 import LazyHero from 'react-lazy-hero';
+import './Third.css'
 
 function Third() {
   return (
     <div className="Third">
-      <LazyHero color="#74ce89" opacity="1" minHeight="75vh">
-          <h1>Third Banner</h1>
+      <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/third-banner.jpg') } className="hero-third" isCentered="true" >
+      <div className="flex-container-third">
+          <div className="mobile-image-third">
+            <img src={ require('../images/third-banner-mobile-grf.jpg')}/>
+          </div>
+          <div className="copy-third">
+          <h1>Something</h1> 
+          <h1>for everyone.</h1>
+          <button type="button" onclick="window.location.href='/page2'" >Shop CBD Now</button>
+        </div>
+      </div>  
       </LazyHero>
     </div>
   );

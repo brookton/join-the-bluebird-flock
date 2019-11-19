@@ -1,48 +1,59 @@
-.copy {
-  margin-left: -55%;
+.copy-second {
 }
 
-.copy h1 {
+.copy-second h1 {
   margin: 0;
-  text-align: right;
   color: #dd6101;
-  font-size: 1.5em;
-  display: flex wrap;
+  font-family: CircularBold;
 }
 
-.copy button {
-  background-color: white;
-  color: #b40032;
-  font-family: Circular;
-  border-radius: 3px;
+.copy-second button {
+  background-color: #dd6101;
+  color: white;
+  font-family: CircularBold;
+  border-radius: 5px;
   border: none;
-  font-size: 0.5em;
-  margin-top: 30px;
-  padding: 7px 30px 7px 30px;
-  position: flex-start;
-  margin-left: -50%;
+  padding: 10px 40px 10px 40px;
+  display: flex-start;
 }
 
-.copy button:hover {
-  color: #00A6D4;
+.copy-second button:hover {
+  color: #dd6101;
+  background-color: #FFD200;
 }
 
-@media screen and (min-width: 451px) {
-  .mobile-image {
+@media screen and (min-width: 601px) {
+  .copy-second {
+    margin-right: -100%;
+  }
+
+  .copy-second h1 {
+    text-align: left;
+    margin-left: 40%;
+    font-size: 1.25em;
+  }
+
+  .copy-second button {
+    margin-top: 10%;
+    font-size: 0.59em;
+    margin-left: 25%;
+  }
+
+  .mobile-image-second {
     display: none;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
 
-  .flex-container {
+  .flex-container-second {
     display: flex wrap;
     align-content: center;
     justify-content: center;
 
   }
 
-  .mobile-image img {
+  .mobile-image-second img {
     margin-top: 0%;
     height: 280px;
     width: auto;
@@ -50,15 +61,15 @@
     z-index: -5;
   }
 
-  .copy h1 {
+  .copy-second h1 {
     font-size: 1em;
-    margin-left: 33%;
+    margin-left: -8%;
     text-align: center;
     z-index: 1;
   }
 
-  .copy button {
-    margin-left: 35%;
+  .copy-second button {
+    margin-left: -10%;
     margin-bottom: -20%;
     margin-top: 20px;
     font-size: 0.60em;

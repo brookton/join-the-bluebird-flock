@@ -6,11 +6,11 @@ function First() {
   return (
     <div className="First">
       <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/hemp-classic.jpg') } className="hero-first" isCentered="true" >
-        <div className="flex-container">
-          <div className="mobile-image">
+        <div className="flex-container-first">
+          <div className="mobile-image-first">
             <img src={ require('../images/hemp-classic-mobile.png') }/>
           </div>
-          <div className="copy">
+          <div className="copy-first">
               <h1>This is your </h1>
               <h1>first step.</h1> 
             <button type="button" onclick="window.location.href='/page2'" >Shop CBD Now</button>
