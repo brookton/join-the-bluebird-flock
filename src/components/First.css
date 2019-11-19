@@ -21,7 +21,7 @@
   .copy-first h1{
     text-align: left;
     font-size: 1.5em;
-    margin-left: -30%;
+    margin-left: -50%;
   }
   .mobile-image-first {
     display: none;
@@ -29,7 +29,7 @@
   .copy-first button { 
     margin-top: 8%;
     font-size: 0.54em;
-    margin-left: -85%;
+    margin-left: -130%;
   }
 }
 
@@ -48,12 +48,14 @@
 
   .copy-first h1 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     padding-left: 20px;
   }
 
   .copy-first button {
-    margin-top: 10%;
+    margin-top: 5%;
+    font-size: 0.5em;
+
   }
   
   .hero-first div {
