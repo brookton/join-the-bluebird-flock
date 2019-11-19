@@ -14,4 +14,4 @@
 
 
 # Bluebird Botanicals
-[Join The Bluebird Flock](https://jointhebluebirdflock.com)
+[Join The Bluebird Flock Initial-Design Branch](https://join-the-flock-draft.netlify.com)
