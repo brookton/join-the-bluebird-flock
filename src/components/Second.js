@@ -5,10 +5,10 @@ import './Second.css'
 function Second(props) {
   return (
     <div className="Second">
-      <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/google-hemp-sport.jpg') } className="hero-second" isCentered="true" >
+      <LazyHero  opacity="0" minHeight="700px"  parallaxOffset="0" imageSrc={ require('../images/facebook-hemp-sport.jpg') } className="hero-second" isCentered="true" >
         <div className="flex-container-second">
           <div className="mobile-image-second">
-            <img src={ require('../images/hemp-sport-mobile.jpg') }/>
+            <img src={ require('../images/facebook-hemp-sport-mobile.jpg') }/>
           </div>
           <div className="copy-second">
               <h1>Lotions,</h1>

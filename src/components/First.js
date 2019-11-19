@@ -5,10 +5,10 @@ import './First.css'
 function First(props) {
   return (
     <div className="First">
-      <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/hemp-classic.jpg') } className="hero-first" isCentered="true" >
+      <LazyHero  opacity="0" minHeight="700px"  parallaxOffset="0" imageSrc={ require('../images/facebook-hemp-silk.jpg') } className="hero-first" isCentered="true" >
         <div className="flex-container-first">
           <div className="mobile-image-first">
-            <img src={ require('../images/hemp-classic-mobile.png') }/>
+            <img src={ require('../images/facebook-hemp-silk-mobile.jpg') }/>
           </div>
           <div className="copy-first">
               <h1><span className="white">This</span> is your </h1>

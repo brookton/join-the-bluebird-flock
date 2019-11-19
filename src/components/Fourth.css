@@ -2,13 +2,13 @@
 
 .copy-fourth h1 {
   margin: 0;
-  color: #ffb60f;
+  color: #1e3c60;
   font-family: CircularBold;
 }
 
 .copy-fourth button {
   background-color: white;
-  color: #223e62;
+  color: #fe9c09;
   font-family: Circular;
   border-radius: 15px;
   border: none;
@@ -41,9 +41,6 @@
     margin-left: 0%;
   }
 
-  .mobile-image-fourth img {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -64,7 +61,6 @@
   }
 
   .copy-fourth h1 {
-    font-size: 1em;
     margin-left: 0%;
     margin-bottom: 8%;
     text-align: center;
@@ -78,7 +74,4 @@
     font-size: 0.60em;
   }
 
-  .hero-fourth div {
-    background-color: #ffa404;
-  }
 }

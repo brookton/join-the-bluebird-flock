@@ -1,6 +1,6 @@
 .copy-second h1 {
   margin: 0;
-  color: #f99d1c;
+  color: #73cf89;
   font-family: CircularBold;
 }
 
@@ -60,7 +60,7 @@
   }
 
   .copy-second h1 {
-    font-size: 1em;
+    font-size: 1.25em;
     margin-left: -8%;
     text-align: center;
     z-index: 1;
@@ -69,10 +69,10 @@
   .copy-second button {
     margin-left: -10%;
     margin-bottom: -20%;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .hero-second div {
-    background-color: #a6e7d1;
+    background-color: #b9f2e1;
   }
 }
