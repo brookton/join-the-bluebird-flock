@@ -4,8 +4,8 @@
 
 .copy h1 {
   margin: 0;
-  text-align: left;
-  color: #ffc701;
+  text-align: right;
+  color: #dd6101;
   font-size: 1.5em;
   display: flex wrap;
 }
@@ -28,36 +28,35 @@
 }
 
 @media screen and (min-width: 451px) {
-  .mobile-image{
+  .mobile-image {
     display: none;
   }
 }
 
 @media screen and (max-width: 450px) {
 
-  .hero-first {
-    background-color:#b40032;
-  }
-
   .flex-container {
     display: flex wrap;
     align-content: center;
     justify-content: center;
+
   }
-  .mobile-image img{
+
+  .mobile-image img {
     margin-top: 0%;
     height: 280px;
     width: auto;
     margin-left: 0%;
-
+    z-index: -5;
   }
 
   .copy h1 {
     font-size: 1em;
     margin-left: 33%;
     text-align: center;
-
+    z-index: 1;
   }
+
   .copy button {
     margin-left: 35%;
     margin-bottom: -20%;
@@ -65,7 +64,7 @@
     font-size: 0.60em;
   }
 
-  .hero-first div {
-    background-color: #b40032;
+  .hero-second div {
+    background-color: #a6e7d1;
   }
 }
