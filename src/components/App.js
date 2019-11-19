@@ -3,6 +3,7 @@ import Header from './Header'
 import First from './First'
 import Second from './Second'
 import Third from './Third'
+import Fourth from './Fourth'
 import './App.css';
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <First redirect={this.redirect}/>
         <Second redirect={this.redirect}/>
         <Third redirect={this.redirect}/>
+        <Fourth redirect={this.redirect}/>
       </div>
     );
   }

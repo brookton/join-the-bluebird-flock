@@ -2,18 +2,19 @@
 
 .copy-third h1 {
   margin: 0;
-  color: #b3e5d4;
+  color: #a6e7d1;
   font-family: CircularBold;
 }
 
 .copy-third button {
-  background-color: #b3e5d4;
+  background-color: white;
   color: #ffa404;
-  font-family: CircularBold;
-  border-radius: 5px;
+  font-family: Circular;
+  border-radius: 12px;
   border: none;
-  padding: 10px 40px 10px 40px;
-  display: flex-start;
+  padding: 5px 20px 3px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 .copy-third button:hover {
@@ -24,20 +25,21 @@
 @media screen and (min-width: 601px) {
   .copy-third {
     display: flex wrap;
-    margin-right: -10%;
-    margin-top: 40%;
+    margin-right: 0%;
+    margin-top: 30%;
   }
 
   .copy-third h1 {
     text-align: left;
     margin-left: 0%;
-    font-size: 1.25em;
+    font-size: 1.75em;
+    margin-bottom: -4%
   }
 
   .copy-third button {
-    margin-top: 10%;
-    font-size: 0.59em;
-    margin-left: -20%;
+    margin-top: 5%;
+    font-size: 0.5em;
+    margin-left: -60%;
   }
 
   .mobile-image-third img {
@@ -64,18 +66,15 @@
 
   .copy-third h1 {
     font-size: 1em;
-    margin-left: 15%;
-    text-align: left;
-
+    text-align: center;
     z-index: 1;
   }
 
 
   .copy-third button {
-    margin-left: 0%;
+    margin-left: -5%;
     margin-bottom: 0%;
     margin-top: 8%;
-    font-size: 0.60em;
   }
 
   .hero-third div {

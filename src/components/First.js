@@ -11,9 +11,9 @@ function First(props) {
             <img src={ require('../images/hemp-classic-mobile.png') }/>
           </div>
           <div className="copy-first">
-              <h1>This is your </h1>
+              <h1><span className="white">This</span> is your </h1>
               <h1>first step.</h1> 
-            <button type="button" onClick={props.redirect} >Shop CBD Now</button>
+            <button type="button" onClick={props.redirect} >Shop Now</button>
           </div>
         </div>  
       </LazyHero>

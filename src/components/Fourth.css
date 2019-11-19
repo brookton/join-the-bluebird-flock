@@ -2,18 +2,19 @@
 
 .copy-fourth h1 {
   margin: 0;
-  color: #b3e5d4;
+  color: #ffb60f;
   font-family: CircularBold;
 }
 
 .copy-fourth button {
-  background-color: #b3e5d4;
-  color: #ffa404;
-  font-family: CircularBold;
-  border-radius: 5px;
+  background-color: white;
+  color: #223e62;
+  font-family: Circular;
+  border-radius: 15px;
   border: none;
-  padding: 10px 40px 10px 40px;
+  padding: 5px 25px 5px 25px;
   display: flex-start;
+  text-transform: uppercase;
 }
 
 .copy-fourth button:hover {
@@ -23,18 +24,20 @@
 
 @media screen and (min-width: 451px) {
   .copy-fourth {
+    margin-top: 10%;
     margin-right: 0%;
   }
 
   .copy-fourth h1 {
     text-align: left;
     margin-left: 0%;
-    font-size: 1.25em;
+    font-size: 3em;
   }
 
   .copy-fourth button {
-    margin-top: 0%;
-    font-size: 0.59em;
+    margin-top: 5%;
+    padding-top: 6px;
+    font-size: 0.65em;
     margin-left: 0%;
   }
 
