@@ -2,7 +2,7 @@ import React from 'react';
 import LazyHero from 'react-lazy-hero';
 import './Fourth.css'
 
-function Fourth() {
+function Fourth(props) {
   return (
     <div className="Fourth">
       <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/third-banner.jpg') } className="hero-fourth" isCentered="true" >
@@ -13,7 +13,7 @@ function Fourth() {
           <div className="copy-fourth">
           <h1>Something</h1> 
           <h1>for everyone.</h1>
-          <button type="button" onclick="window.location.href='/page2'" >Shop CBD Now</button>
+          <button type="button" onClick={props.redirect} >Shop CBD Now</button>
         </div>
       </div>  
       </LazyHero>

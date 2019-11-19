@@ -5,15 +5,19 @@ import Second from './Second'
 import Third from './Third'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <First />
-      <Second />
-      <Third />
-    </div>
-  );
+class App extends React.Component {
+    redirect(){
+      window.location.href="https://bluebirdbotanicals.com";
+    }
+    render(){
+    return (
+      <div className="App">
+        <Header />
+        <First redirect={this.redirect}/>
+        <Second redirect={this.redirect}/>
+        <Third redirect={this.redirect}/>
+      </div>
+    );
+  }
 }
-
 export default App;

@@ -2,7 +2,7 @@ import React from 'react';
 import LazyHero from 'react-lazy-hero';
 import './Second.css'
 
-function Second() {
+function Second(props) {
   return (
     <div className="Second">
       <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/hemp-sport-banner.jpg') } className="hero-second" isCentered="true" >
@@ -15,7 +15,7 @@ function Second() {
               <h1>extracts,</h1>
               <h1>soft gels</h1>
               <h1>and more.</h1> 
-            <button type="button" onclick="window.location.href='/page2'" >Shop Now</button>
+            <button type="button" onClick={props.redirect} >Shop Now</button>
           </div>
         </div>  
       </LazyHero>
