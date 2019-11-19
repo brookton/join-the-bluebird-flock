@@ -1,35 +1,41 @@
-.copy-first {
-}
+
 .copy-first h1 {
   margin: 0;
   color: #ffc701;
   font-family: CircularBold;
+  margin-bottom: -5px;
 }
 .copy-first button {
   background-color: white;
   color: #b40032;
   font-family: CircularBold;
-  border-radius: 5px;
+  border-radius: 25px;
   border: none;
-  padding: 10px 30px 10px 30px;
+  padding: 5px 15px 5px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .copy-first button:hover {
   background-color: #FFD200;
   color:#b40032;
 }
+
 @media screen and (min-width: 601px) {
+  .copy-first {
+    margin-left: -55%;
+    margin-top: 30%;
+  }
+
   .copy-first h1{
     text-align: left;
     font-size: 1.5em;
-    margin-left: -30%;
   }
   .mobile-image-first {
     display: none;
   }
   .copy-first button { 
+    display: flex;
     margin-top: 8%;
-    font-size: 0.54em;
-    margin-left: -85%;
   }
 }
 
