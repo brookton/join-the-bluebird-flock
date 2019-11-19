@@ -10,7 +10,7 @@
 # Branches
 - initial-design = initial ux/ui design pre-agency build
 - facebook = post-agency ux/ui facebook landing page
-- master = post-agency ux/ui google landing page
+- google = post-agency ux/ui google landing page
 
 
 # Bluebird Botanicals
