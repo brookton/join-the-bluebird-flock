@@ -7,8 +7,29 @@ a {
 }
 
 .Logo {
-  max-width: 200px;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 601px) {
+  .Logo {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    max-width: 200px;
+  }
+
+  .Header {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Logo {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    max-width: 200px;
+  }
+
+  .Header {
+    text-align: center;
+  }
 }

@@ -5,7 +5,7 @@ import './First.css'
 function First(props) {
   return (
     <div className="First">
-      <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/facebook-hemp-silk.jpg') } className="hero-first" isCentered="true" >
+      <LazyHero  opacity="0" minHeight="570px"  parallaxOffset="0" imageSrc={ require('../images/facebook-hemp-silk.jpg') } className="hero-first" isCentered="true" >
         <div className="flex-container-first">
           <div className="mobile-image-first">
             <img src={ require('../images/facebook-hemp-silk-mobile.jpg') }/>
