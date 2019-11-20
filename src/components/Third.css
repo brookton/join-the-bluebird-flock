@@ -65,16 +65,16 @@
   }
 
   .copy-third h1 {
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: center;
     z-index: 1;
   }
 
 
   .copy-third button {
-    margin-left: -5%;
+    margin-left: 0%;
     margin-bottom: 0%;
-    margin-top: 8%;
+    margin-top: 10%;
   }
 
   .hero-third div {
