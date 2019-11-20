@@ -8,7 +8,26 @@ a {
 
 .Logo {
   max-width: 200px;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 601px) {
+  .Logo {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+  }
+  .Header {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Logo {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: -3.5%;
+  }
+  .Header {
+    text-align: center;
+  }
 }
