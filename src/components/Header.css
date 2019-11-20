@@ -2,9 +2,13 @@
   text-align: left;
 }
 
+a {
+  cursor: default;
+}
+
 .Logo {
   max-width: 200px;
-  margin-top: 2%;
+  margin-top: 5%;
   margin-left: 5%;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
