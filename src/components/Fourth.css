@@ -9,17 +9,17 @@
 .copy-fourth button {
   background-color: white;
   color: #223e62;
-  font-family: Circular;
+  font-family: CircularBold;
   border-radius: 15px;
   border: none;
   padding: 5px 25px 5px 25px;
   display: flex-start;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .copy-fourth button:hover {
-  color: #b3e5d4;
-  background-color: #474B55;
+  color: white;
+  background-color: #ffb60f;
 }
 
 @media screen and (min-width: 451px) {
@@ -37,7 +37,7 @@
   .copy-fourth button {
     margin-top: 5%;
     padding-top: 6px;
-    font-size: 0.65em;
+    font-size: 18px;
     margin-left: 0%;
   }
 
@@ -63,8 +63,8 @@
   .copy-fourth button {
     margin-left: 0%;
     margin-bottom: 0%;
-    margin-top: 0px;
-    font-size: 0.50em;
+    margin-top: 5%;
+    font-size: 20px;
   }
 
 }

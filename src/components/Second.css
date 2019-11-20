@@ -11,13 +11,12 @@
   border-radius: 15px;
   border: none;
   padding: 5px 15px 5px 15px;
-  font-size: 14px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .copy-second button:hover {
-  color: #dd6101;
-  background-color: #FFD200;
+  color: white;
+  background-color: #f99d1c;
 }
 
 @media screen and (min-width: 601px) {
@@ -34,6 +33,7 @@
 
   .copy-second button {
     margin-top: 5%;
+    font-size: 18px;
     display:flex;
   }
 
@@ -68,8 +68,9 @@
 
   .copy-second button {
     margin-left: 1%;
-    margin-bottom: -20%;
-    margin-top: 20px;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    font-size: 18px;
   }
 
   .hero-second div {
