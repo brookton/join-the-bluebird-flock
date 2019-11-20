@@ -46,7 +46,7 @@
     justify-content: center;
   }
   .mobile-image-first img{
-    margin-top: 0%;
+    margin-top: -50%;
     margin-left: 0%;
     height: 350px;
     width: auto;
