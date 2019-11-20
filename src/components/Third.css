@@ -60,8 +60,8 @@
   .mobile-image-third img {
     margin-bottom: 5%;
     height: auto;
-    max-width: 400px;
-    margin-left: -10%;
+    max-width: 350px;
+    margin-left: -3%;
     z-index: -5;
     overflow: hidden;
   }
