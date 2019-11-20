@@ -16,8 +16,8 @@
 }
 
 .copy-second button:hover {
-  color: #dd6101;
-  background-color: #FFD200;
+  color: white;
+  background-color: #73cf89;
 }
 
 @media screen and (min-width: 601px) {

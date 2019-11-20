@@ -9,7 +9,7 @@
 .copy-fourth button {
   background-color: white;
   color: #fe9c09;
-  font-family: Circular;
+  font-family: CircularBold;
   border-radius: 15px;
   border: none;
   padding: 5px 25px 5px 25px;
@@ -18,8 +18,8 @@
 }
 
 .copy-fourth button:hover {
-  color: #b3e5d4;
-  background-color: #474B55;
+  color: white;
+  background-color: #6ccc86;
 }
 
 @media screen and (min-width: 451px) {

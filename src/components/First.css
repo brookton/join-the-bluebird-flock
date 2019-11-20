@@ -16,8 +16,8 @@
   text-transform: uppercase;
 }
 .copy-first button:hover {
-  background-color: #FFD200;
-  color:#b40032;
+  background-color: #474b55;
+  color:#c8f4e8;
 }
 
 @media screen and (min-width: 601px) {
