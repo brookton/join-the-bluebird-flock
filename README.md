@@ -14,6 +14,6 @@
 
 
 # Bluebird Botanicals
-[Draft (Initial-Design Branch)](https://join-the-flock-draft.netlify.com)
-[Google Landing Page](https://join-the-bluebird-flock.netlify.com)
-[Facebook Landing Page](facebook-bluebird-flock.netlify.com)
+- [Draft (Initial-Design Branch)](https://join-the-flock-draft.netlify.com)
+- [Google Landing Page](https://join-the-bluebird-flock.netlify.com)
+- [Facebook Landing Page](facebook-bluebird-flock.netlify.com)
