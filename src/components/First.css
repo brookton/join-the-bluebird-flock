@@ -46,7 +46,7 @@
     justify-content: center;
   }
   .mobile-image-first img{
-    margin-top: -50%;
+    margin-top: -25%;
     margin-left: 0%;
     height: 350px;
     width: auto;
@@ -59,11 +59,12 @@
   }
 
   .copy-first button {
-    margin-top: 5%;
-    margin-left: -8%
+    margin-top: 10%;
+    margin-left: 0%;
   }
   
   .hero-first div {
     background-color: #ff4f38;
+    overflow: hidden;
   }
 }
