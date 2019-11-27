@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import './fonts/CircularStd-Black.otf'
@@ -18,5 +17,5 @@ ReactDOM.render(
         <App />
       </Route>
     </div>
-  </Router>, document.getElementById('root'))
-) ;
+  </Router>, document.getElementById('root')
+);
