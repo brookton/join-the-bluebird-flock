@@ -6,12 +6,12 @@ import './fonts/CircularStd-Black.otf'
 import './index.css';
 import App from './components/App';
 
-export const history = createBrowserHistory({
+const customHistory = createBrowserHistory({
   basename: process.env.PUBLIC_URL
 });
 
 ReactDOM.render(
-  <Router basename="{process.env.PUBLIC_URL}">
+  <Router history={customHistory}>
     <div>
       <Route path="/products">
         <App />
