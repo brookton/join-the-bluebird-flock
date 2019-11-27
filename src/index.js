@@ -13,7 +13,7 @@ export const history = createBrowserHistory({
 ReactDOM.render(
   <Router>
     <div>
-      <Route exact path="/products">
+      <Route path="/products">
         <App />
       </Route>
     </div>
