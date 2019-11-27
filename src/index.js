@@ -11,7 +11,7 @@ export const history = createBrowserHistory({
 });
 
 ReactDOM.render(
-  <Router>
+  <Router basename="{process.env.PUBLIC_URL}">
     <div>
       <Route path="/products">
         <App />
