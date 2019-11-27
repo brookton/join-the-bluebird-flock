@@ -2,3 +2,5 @@
 
 # Redirect default Netlify subdomain to primary domain
 https://facebook-bluebird-flock.netlify.com/* https://jointhebluebirdflock.com/:splat 301!
+
+/products/*  https://join-the-bluebird-flock.netlify.com:splat  200
