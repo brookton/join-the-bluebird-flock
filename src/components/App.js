@@ -1,4 +1,5 @@
 import React from 'react';
+import { createBrowserHistory } from 'history';
 import Header from './Header'
 import First from './First'
 import Second from './Second'
@@ -6,6 +7,9 @@ import Third from './Third'
 import Fourth from './Fourth'
 import './App.css';
 
+export const history = createBrowserHistory({
+  basename: process.env.PUBLIC_URL
+});
 class App extends React.Component {
     redirect(){
       window.location.href="https://bluebirdbotanicals.com";
