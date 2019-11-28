@@ -1,41 +1,52 @@
-
 .copy-first h1 {
   margin: 0;
-  color: #474b55;
+  color: #ffc701;
   font-family: CircularBold;
   margin-bottom: -5px;
 }
+
 .copy-first button {
   background-color: white;
-  color: #ff4f38;
+  color: #b40032;
   font-family: CircularBold;
-  border-radius: 15px;
+  border-radius: 25px;
   border: none;
   padding: 5px 15px 5px 15px;
+  font-size: 14px;
   text-transform: capitalize;
 }
+
 .copy-first button:hover {
-  background-color: #474b55;
-  color:white;
+  background-color: #FFD200;
+  color: white;
 }
 
 @media screen and (min-width: 601px) {
   .copy-first {
-    margin-left: -55%;
+    margin-left: -25%;
     margin-top: 30%;
+    max-width: 15em;
   }
 
-  .copy-first h1{
+  .copy-first h1 {
     text-align: left;
     font-size: 1.5em;
   }
+
+  .copy-first p {
+    font-size: 12px;
+    text-align: left;
+    color: white;
+  }
+
   .mobile-image-first {
     display: none;
   }
-  .copy-first button { 
+
+  .copy-first button {
     display: flex;
-    margin-top: 8%;
     font-size: 18px;
+    margin-top: 8%;
   }
 }
 
@@ -44,32 +55,26 @@
     display: flex wrap;
     align-content: center;
     justify-content: center;
-    margin-bottom: -10%;
   }
-  .mobile-image-first img{
-    margin-top: -15%;
-    margin-left: 1%;
-    height: 330px;
+
+  .mobile-image-first img {
+    margin-top: -20%;
+    margin-left: 2%;
+    height: 280px;
     width: auto;
   }
-  .copy-first {
-    margin-top: -4%;
-    margin-bottom: -5%;
-  }
+
   .copy-first h1 {
     text-align: center;
-    font-size: 1.25em;
-    padding-left: 0px;
+    font-size: 1.5em;
   }
 
   .copy-first button {
-    margin-top: 10%;
-    margin-left: 0%;
+    margin-top: 15%;
     font-size: 18px;
   }
-  
+
   .hero-first div {
-    background-color: #ff4f38;
-    padding-top: -10%;
+    background-color: #b40032;
   }
 }
