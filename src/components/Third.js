@@ -5,7 +5,7 @@ import './Third.css'
 function Third(props) {
   return (
     <div className="Third">
-      <LazyHero  opacity="0" minHeight="800px"  parallaxOffset="0" imageSrc={ require('../images/facebook-hemp-lotions.jpg') } className="hero-third" isCentered="true" >
+      <LazyHero  opacity="0" minHeight="600px"  parallaxOffset="0" imageSrc={ require('../images/facebook-hemp-lotions.jpg') } className="hero-third" isCentered="true" >
       <div className="flex-container-third">
           <div className="mobile-image-third">
             <img src={ require('../images/facebook-hemp-lotions-mobile.jpg')}/>

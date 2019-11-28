@@ -24,7 +24,7 @@
 @media screen and (min-width: 601px) {
   .copy-third {
     display: flex wrap;
-    margin-left: 60%;
+    margin-left: 40%;
     margin-top: 0%;
     min-width: 400px;
   }
