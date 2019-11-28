@@ -8,7 +8,7 @@ import './App.css';
 
 class App extends React.Component {
     redirect(){
-      window.location.href="https://bluebirdbotanicals.com";
+      window.location.href="https://bluebirdbotanicals.com/thankful35";
     }
     render(){
     return (
