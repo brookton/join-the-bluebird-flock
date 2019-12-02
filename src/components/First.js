@@ -13,7 +13,7 @@ function First(props) {
           <div className="copy-first">
               <h1><span className="white">SAVE 35%</span> with code</h1>
               <h1>THANKFUL35.</h1> 
-              <p>Valid on online orders only that are placed in the U.S. Please note that this discount cannot be used on Bluebird CBD lotion products and cannot be applied to wholesale orders or bulk items.</p>
+              <p>Valid on online orders only that are placed in the U.S. Please note that this discount cannot be used on Bluebird hemp lotion products and cannot be applied to wholesale orders or bulk items.</p>
             <button type="button" onClick={props.redirect} >Shop Now</button>
           </div>
         </div>  
