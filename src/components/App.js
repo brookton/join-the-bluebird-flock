@@ -15,8 +15,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <BCorp />
-        <First redirect={this.redirect}/>
+        <BCorp redirect={this.redirect}/>
         <Second redirect={this.redirect}/>
         <Third redirect={this.redirect}/>
         <Fourth redirect={this.redirect}/>
