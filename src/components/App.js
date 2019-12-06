@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header'
+import BCorp from './bCorp'
 import First from './First'
 import Second from './Second'
 import Third from './Third'
@@ -14,6 +15,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
+        <BCorp />
         <First redirect={this.redirect}/>
         <Second redirect={this.redirect}/>
         <Third redirect={this.redirect}/>
