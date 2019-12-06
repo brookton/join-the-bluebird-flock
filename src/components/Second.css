@@ -75,5 +75,6 @@
 
   .hero-second div {
     background-color: #b9f2e1;
+    overflow: hidden;
   }
 }

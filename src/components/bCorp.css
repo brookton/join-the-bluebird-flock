@@ -106,5 +106,6 @@
 
   div.hero-bCorp {
     padding-top: 0%;
+    overflow: hidden;
   }
 }
