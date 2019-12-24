@@ -1,24 +1,17 @@
 import React from 'react';
-import Header from './Header'
-import BCorp from './bCorp'
-import First from './First'
-import Second from './Second'
-import Third from './Third'
-import Fourth from './Fourth'
+import { Router } from "@reach/router"
+import Home from './Home'
+import SocialLanding from './SocialLanding'
 import './App.css';
 
 class App extends React.Component {
-    redirect(){
-      window.location.href="https://bluebirdbotanicals.com";
-    }
     render(){
     return (
       <div className="App">
-        <Header />
-        <BCorp redirect={this.redirect}/>
-        <Second redirect={this.redirect}/>
-        <Third redirect={this.redirect}/>
-        <Fourth redirect={this.redirect}/>
+        <Router>
+          <SocialLanding path="/b-corp-hemp-company" />
+          <Home path="/"/>
+        </Router>
       </div>
     );
   }
